@@ -4,14 +4,12 @@
     {
         static void Main(string[] args)
         {
-            function();
+            function(10,"hallo");
         }
-         static void function()
+         static void function(int nummer, string woord)
         {
-            int ding = 1273691491;
-            string nog_een_ding = "Hahahaha";
-            Console.WriteLine(ding);
-            Console.WriteLine(nog_een_ding);
+            Console.WriteLine(woord);
+            Console.WriteLine(nummer);
         }
     }
 }

@@ -5,7 +5,12 @@
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Hello World");
+            string text = "Hello World";
+            foreach (char c in text)
+            {
+                Console.Write(c);
+                Thread.Sleep(50);
+            }
             Console.ForegroundColor = ConsoleColor.White;
 
         }
